@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
+html{
+    width: 100%;
+    height: 100%;
+    
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url(https://img.freepik.com/free-vector/green-curve-abstract-background_53876-99569.jpg?size=626&ext=jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+#logo{
+    display: block;
+    margin: 0%;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#formulario h3{
+    text-align: center;
+    padding: 3%;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: x-large;
+    margin: 0%;
+    
+}
+#formulario{
+    width: fit-content;
+    height: fit-content;
+    background-color: #3b83bd;
+    background-image: url(https://cdn.wallpapersafari.com/65/73/sZEYvl.jpg);
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px;
+    
+}
+#form-registro{
+    position: relative;
+    background-color: #bbd1ea;
+    border: 1px;
+    padding: 15px;
+    text-align: left;
+    background-image: url(https://img.freepik.com/free-vector/green-curve-abstract-background_53876-99569.jpg?size=626&ext=jpg);
+    border-radius: 5px;
+
+}
+
+#form-registro input{
+    padding: 0.3rem;
+    display: block;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 99%;
+    
+    
+}
+
+#form-registro label{
+    font-weight:bold;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+    
+
+#Pseguridad{
+    padding: 0.3rem;
+    display: block;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#btn-registrar{
+    background-color:rgb(11, 211, 11);
+    width: 200px;
+    height:40px;
+    text-align: center;
+    padding: 1%;
+    border-radius: .5em ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    font: bold;
+    font-size: medium;
+    position:relative;
+    left: 60px;
+}
