@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="../Ciclo3-master/estilos.css">
+</head>
+
+<body>
+    <div id="logo" name="logo">
+        <img src="https://1000marcas.net/wp-content/uploads/2020/02/logo-WWF.png" width="300px" height="200px" alt="">
+    </div>
+    <main>
+        
+        <div id="formulario" name="formulario">
+            <h3>Registro</h3>
+            <form id="form-registro">
+                <label class="form" for="username">Username</label>
+                <br>
+                <input type="text" id="username" name="username" autofocus>
+                <br>
+                <label class="form" for="password">Password</label>
+                <br>
+                <input type="password" id="password" name="password" autofocus>
+                <br>
+                <label class="form" for="Pseguridad">Pregunta de seguridad</label>
+                <br>
+                <select name="Pseguridad" id="Pseguridad">
+                    <option value="value1"> ¿En qué ciudad naciste?</option>
+                    <option value="value2">¿Ciudad dónde fuiste al colegio?</option>
+                    <option value="value3">¿Nombre de tu primera mascota?</option>
+                    <option value="value4">¿En qué ciudad se conocieron tus padres?</option>
+                    <option value="value5">¿Cuál sería tu trabajo ideal?</option>
+                </select>
+                <br>
+                <label class="form" for="Rseguridad">Respuesta de seguridad</label>
+                <br>
+                <input type="text" name="Rseguridad" id="Rseguridad" autofocus>
+                <br>
+                <div id="contenedor_boton">
+                    
+                    <button id="btn-registrar">
+                        Registrar
+                    </button>
+                </div>
+                <div id="contenedor_enlace_login">
+                    <label id="label_login">¿Ya tienes una cuenta?</label>
+                    <a id="enlace-login"  href="login.html" >Inicia sesión </a>
+
+                </div>
+                    
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
